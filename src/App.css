@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+
+  @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+.app {
+  font-family: 'Black Han Sans', sans-serif;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Layout {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  width: 800px;
+  margin: 10px auto 0 auto;
+
+  
+}
+.bar {
+  margin-top: 0px;
+  
+  width: 800px;
+  height: 30px;
+  background-color: #d6d6d8;
+  font-family:'sans-serif';
+  font-size: 20px;
+  text-align: left;
+  
+  
+}
+
+.Header {
+  font-family: 'Pretendard-Regular';
+  font-size: 30px;
+  text-align: left;
+  float: left;
+  width: 30%;
+  display: inline;
+}
+.icon {
+  width: 70%;
+  float: right;
+  text-align: right;
+}
+.Scroll {
+
+  overflow: auto;
+  white-space: nowrap;
+  margin: 0 auto;
+  display: flex;
+}
+
+.InputArea {
+  display: flex;
+  padding: 20px auto;
+  gap: 20px;
+  width: 700px;
+  height: 50px;
+  margin : 20px;
+  background-color: #ec4a83;
+  border-radius: 10px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.Input {
+  border: 0px;
+  height: 25px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ 
+.title {
+  font-family:  'Black Han Sans', sans-serif;
+}
+ 
+.Box {
+  width: 200px;
+  border: 3px solid;
+  border-radius: 10px;
+  height: 150px;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+ 
+.Button {
+  
+  border: 0px;
+  border-radius: 50px;
+  height: 30px;
+  margin: 0 10px;
 }
