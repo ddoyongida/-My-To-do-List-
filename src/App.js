@@ -33,7 +33,7 @@ function App() {
       isDone: false
     };
   
-    if (title === '' && contents === '') alert('글자를 입력해주세요!');
+    if (title === '' || contents === '') alert('글자를 입력해주세요!');
     else {
       setTodo([...todo, newTodo]);
       setTitle('');//입력하면 reset
